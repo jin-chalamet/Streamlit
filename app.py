@@ -4,9 +4,9 @@ import time
 import plotly.express as px
 
 # 데이터 프레임 정의 (예시 데이터)
-df = pd.read_csv("C:/Users/82108/Downloads/2020g.csv", encoding="cp949")
-df1 = pd.read_csv("C:/Users/82108/Downloads/2023gin2.csv", encoding="cp949")
-df2 = pd.read_csv("C:/Users/82108/Downloads/edu.csv", encoding='cp949')
+df = pd.read_csv("2020g.csg", encoding="cp949")
+df1 = pd.read_csv("2023gin2.csv", encoding="cp949")
+df2 = pd.read_csv("edu.csv", encoding='cp949')
 
 # 직종 추천 함수
 def recommend_jobs(user_info, df):
